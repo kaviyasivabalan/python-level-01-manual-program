@@ -1,0 +1,15 @@
+print("bharathi supermark")
+print("no:44,nehru street,puducherry")
+print("-----------------------------")
+print("bill receipt")
+print("-----------------------------")
+sl=input("enter the serial number ")
+pr=input("enter the particulars")
+rate=int(input("enter the rate"))
+qty=int(input("enter the qulity"))
+total=rate*qty
+print("total amount rs:",total)
+gst=total*10/100
+paid=total+gst
+print("gst(10percentage):",gst)
+print("amount to be paid rs:",paid)
